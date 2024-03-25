@@ -10,7 +10,6 @@ int main(){
     int sock, client_socket;
     char buffer[1024];
     char response[20000];
-
     struct sockadrr_in serv_address, client_address;
     int optval = 1;
     socklen_t client_length;
